@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Text Guess</string>
+    <string name="title_mlkit">ML Kit</string>
+    <string name="title_cloudvision">Cloud Vision</string>
+</resources>

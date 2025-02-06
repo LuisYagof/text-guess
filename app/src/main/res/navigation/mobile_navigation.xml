@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mlkit">
+
+    <fragment
+        android:id="@+id/navigation_mlkit"
+        android:name="com.secretspot.textguess.ui.mlkit.MLKitFragment"
+        android:label="@string/title_mlkit"
+        tools:layout="@layout/fragment_mlkit" />
+
+    <fragment
+        android:id="@+id/navigation_cloudvision"
+        android:name="com.secretspot.textguess.ui.cloudvision.CloudVisionFragment"
+        android:label="@string/title_cloudvision"
+        tools:layout="@layout/fragment_cloudvision" />
+
+</navigation>
