@@ -2,4 +2,6 @@
     <string name="app_name">Text Guess</string>
     <string name="title_mlkit">ML Kit</string>
     <string name="title_cloudvision">Cloud Vision</string>
+    <string name="capture">Capture</string>
+    <string name="text_recognition">Text Recognition</string>
 </resources>
