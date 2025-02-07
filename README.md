@@ -27,10 +27,10 @@ git clone https://github.com/your-username/text-guess.git
 
 2. Open the project in Android Studio.
 
-3. Add your Google Cloud API key to local.properties:
+3. Add your Google Cloud API credentials in this folder:
 
 ```bash
-GOOGLE_CLOUD_API_KEY=your_api_key_here
+app/src/main/res/raw/credentials.json
 ```
 
 4. Build and run the app on an Android device or emulator.
